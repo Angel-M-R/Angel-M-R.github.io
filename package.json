@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://github.com/Angel-M-R/Angel-M-R.github.io",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
