@@ -1,6 +1,6 @@
-import { SectionTitle } from "../../components/SectionTitle"
-import coverwallet from "../../../../assets/coverwallet.png";
-import bbvaIT from "../../../../assets/bbvaIT.png";
+import { SectionTitle } from "../components/SectionTitle"
+import coverwallet from "../../../assets/coverwallet.png";
+import bbvaIT from "../../../assets/bbvaIT.png";
 import { useState } from "react";
 
 function Timeline() {
