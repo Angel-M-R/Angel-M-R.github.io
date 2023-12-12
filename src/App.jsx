@@ -2,6 +2,7 @@ import { StartSection } from "./pages/landing/sections/StartSection"
 import { Timeline } from "./pages/landing/sections/Timeline"
 import { Separator } from "./pages/landing/components/Separator"
 import { Projects } from "./pages/landing/sections/Projects"
+import { Contact } from "./pages/landing/sections/Contact"
 
 function App() {
 
@@ -13,14 +14,12 @@ function App() {
       <main>
         <StartSection/>
         <Separator/>
-
         <Timeline/>
         <Separator/>
         <Projects/>
-
+        <Separator/>
+        <Contact/>
       </main>
-      <footer className="footer-section mt-[2344px]">        
-      </footer>
     </>
   )
 }
