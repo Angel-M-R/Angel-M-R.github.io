@@ -2,7 +2,7 @@ import { string } from 'prop-types';
 
 function Project({img, title, github, deployed, children}) {
   return (
-    <div className="w-72 max-sm:w-96 max-2xl:w-[350px] flex flex-col border shadow-sm rounded-xl bg-black border-gray-700 shadow-slate-700/[.7]">
+    <div className="w-[265px] max-sm:w-96 max-2xl:w-[350px] flex flex-col border shadow-sm rounded-xl bg-black border-gray-700 shadow-slate-700/[.7]">
       <img className="w-full h-[190px] rounded-t-xl" src={img} alt="Image Description" />
       <div className="p-4 md:p-5 h-[148px]">
         <p className="mt-1  text-gray-500 dark:text-gray-400">
