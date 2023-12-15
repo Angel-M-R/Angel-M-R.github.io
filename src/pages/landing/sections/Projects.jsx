@@ -2,12 +2,13 @@ import { SectionTitle } from "../components/SectionTitle";
 import { Project } from "../components/Project";
 import ohstudio from '../../../assets/ohstudio.png';
 import tailwindSvg from '../../../assets/svg/tailwind-svg.svg';
-import ableton from '../../../assets/ableton.png';
+import framerMotion from '../../../assets/svg/framer-svg.svg';
+import ableton from '../../../assets/ableton.jpg';
 import nike from '../../../assets/nike.png'
 import viteSvg from '../../../assets/svg/vite-svg.svg';
 import netflix from '../../../assets/netflix1.jpg';
-import portfolio from '../../../assets/portfolio.png';
-import heroes from '../../../assets/heroes.png';
+import portfolio from '../../../assets/portfolio.jpg';
+import heroes from '../../../assets/heroes.jpg';
 
 function Projects() {
   return (
@@ -74,10 +75,27 @@ function Projects() {
           title="React login and routing website"
           >
             <span className="flex gap-1">
-            <i className="fa-brands fa-react mt-1.5"></i>
+              <i className="fa-brands fa-react mt-1.5"></i>
               React
               <i className="fa-solid fa-cube mt-1.5 ml-1"></i>
               Webpack
+            </span>
+        </Project>
+        <Project
+          img="https://github.com/Angel-M-R/framer-motion-project/assets/16781447/604b878f-af53-4a8b-a337-1111afe1d878"
+          title="Framer motion project"
+          github="https://github.com/Angel-M-R/framer-motion-project/tree/main"
+          deploy="https://framer-motion-project-angel.vercel.app/"
+          >
+            <span className="flex gap-1 text-[16px]">
+            <i className="fa-brands fa-react mt-1.5"></i>
+              React
+              <i className="fa-brands fa-sass mt-1.5"></i>
+              SASS
+              <img width={15} height={15} className="invert" src={framerMotion} alt="Tailwind logo" />
+              <span>
+                Fr. Motion
+              </span>
             </span>
         </Project>
       </section>
