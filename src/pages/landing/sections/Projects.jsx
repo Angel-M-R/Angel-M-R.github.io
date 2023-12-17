@@ -3,6 +3,7 @@ import { Project } from "../components/Project";
 import ohstudio from '../../../assets/ohstudio.png';
 import tailwindSvg from '../../../assets/svg/tailwind-svg.svg';
 import framerMotion from '../../../assets/svg/framer-svg.svg';
+import astroIcon from '../../../assets/svg/astro-icon-light.svg';
 import ableton from '../../../assets/ableton.jpg';
 import nike from '../../../assets/nike.png'
 import viteSvg from '../../../assets/svg/vite-svg.svg';
@@ -96,6 +97,19 @@ function Projects() {
               <span>
                 Fr. Motion
               </span>
+            </span>
+        </Project>
+        <Project
+          img="https://github.com/Angel-M-R/tesla-clone-astro/assets/16781447/119612f5-ab69-42d9-9483-fa86cd10cf69"
+          title="Tesla Clone Astro"
+          github="https://github.com/Angel-M-R/tesla-clone-astro"
+          deploy="https://tesla-astro-clone.netlify.app"
+          >
+            <span className="flex gap-1 text-[16px]">
+              <i className="fa-brands fa-js mt-1.5"></i>
+              JS
+              <img width={15} height={15} className="ml-1 mt-1.5" src={astroIcon} alt="Astro logo" />
+              Astro
             </span>
         </Project>
       </section>
