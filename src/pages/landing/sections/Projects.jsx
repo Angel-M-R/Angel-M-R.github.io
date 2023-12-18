@@ -6,6 +6,7 @@ import framerMotion from '../../../assets/svg/framer-svg.svg';
 import astroIcon from '../../../assets/svg/astro-icon-light.svg';
 import ableton from '../../../assets/ableton.jpg';
 import nike from '../../../assets/nike.png'
+import spacex from '../../../assets/spacex.png'
 import viteSvg from '../../../assets/svg/vite-svg.svg';
 import netflix from '../../../assets/netflix1.jpg';
 import portfolio from '../../../assets/portfolio.jpg';
@@ -104,6 +105,19 @@ function Projects() {
           title="Tesla Clone Astro"
           github="https://github.com/Angel-M-R/tesla-clone-astro"
           deploy="https://tesla-astro-clone.netlify.app"
+          >
+            <span className="flex gap-1 text-[16px]">
+              <i className="fa-brands fa-js mt-1.5"></i>
+              JS
+              <img width={15} height={15} className="ml-1 mt-1.5" src={astroIcon} alt="Astro logo" />
+              Astro
+            </span>
+        </Project>
+        <Project
+          img={spacex}
+          title="Space X Launches"
+          github="https://github.com/Angel-M-R/astro-space-x"
+          deploy="https://astro-space-x.vercel.app/"
           >
             <span className="flex gap-1 text-[16px]">
               <i className="fa-brands fa-js mt-1.5"></i>
