@@ -107,10 +107,12 @@ function Projects() {
           deploy="https://tesla-astro-clone.netlify.app"
           >
             <span className="flex gap-1 text-[16px]">
-              <i className="fa-brands fa-js mt-1.5"></i>
+              <i className="fa-brands fa-js mt-1.5 mr-0.5"></i>
               JS
               <img width={15} height={15} className="ml-1 mt-1.5" src={astroIcon} alt="Astro logo" />
               Astro
+              <img width={24} height={24} className="invert" src={tailwindSvg} alt="Tailwind logo" />
+              Tailwind
             </span>
         </Project>
         <Project
@@ -120,10 +122,12 @@ function Projects() {
           deploy="https://astro-space-x.vercel.app/"
           >
             <span className="flex gap-1 text-[16px]">
-              <i className="fa-brands fa-js mt-1.5"></i>
+              <i className="fa-brands fa-js mt-1.5 mr-0.5"></i>
               JS
               <img width={15} height={15} className="ml-1 mt-1.5" src={astroIcon} alt="Astro logo" />
               Astro
+              <img width={24} height={24} className="invert" src={tailwindSvg} alt="Tailwind logo" />
+              Tailwind
             </span>
         </Project>
       </section>
