@@ -179,7 +179,7 @@ function Timeline() {
               MultiFaucetco.in
             </h3>
             <p className="mt-1 text-sm text-gray-500 dark:text-gray-300 ">
-              First production functional website using Wordpress as CMS and Bootstrap for styles, when I had 16 years old.
+              First production functional website using Wordpress as CMS and Bootstrap for styles, when I was 16 years old.
               <br/>This website was giving Cryptocurrencies as exchange for viewing ads (BTC price here 200$)
             </p>
             <div className="flex gap-2 mt-1 text-gray-200">
